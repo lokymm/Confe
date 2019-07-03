@@ -1,0 +1,10 @@
+
+#footer{
+  background:linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+footer a{
+  color: white;
+}
