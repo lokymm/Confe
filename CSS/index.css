@@ -1,7 +1,16 @@
 
 
-.text-platzi {
+.nav-link text-platzi {
   color: #97c93e;
+}
+
+.btn-platzi{
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-platzi:hover{
+  background-color: #82ad36;
 }
 
 #header img{
@@ -39,9 +48,9 @@ header a {
   height: 100%;
 }
 
-.container{
+/*.container{
   display: flex;
-}
+}*/
 
 #footer{
   background:linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
