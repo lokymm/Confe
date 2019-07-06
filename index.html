@@ -40,7 +40,7 @@
                 <a class="nav-link" href="#speaker_frm">Conviertete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-platzi" href="#">Comprar entradas</a>
+                <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalcompra">Comprar entradas</a>
               </li>
 
               </ul>
@@ -73,7 +73,7 @@
                 un evento para compartir con nuestra comunidad el conocimiento
               y la experiencia de las personas que estan creando el futuro de internet.</p>
               <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-              <button type="button" class="btn btn-platzi" name="button">Comprar Ticket</button>
+              <button type="button" class="btn btn-platzi" name="button" data-toggle="modal" data-target="#modalcompra">Comprar Ticket</button>
               </div>
 
             </div>
@@ -245,6 +245,29 @@
       </div>
     </footer>
 <!-- end footer -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalcompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
