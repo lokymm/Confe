@@ -51,6 +51,21 @@ header a {
 /*.container{
   display: flex;
 }*/
+#place-time{
+background-color: #1c3643;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+
+#place-time p, h2{
+  color: white;
+  text-align: center;
+  
+  z-index: 1;
+}
+
 
 #footer{
   background:linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
